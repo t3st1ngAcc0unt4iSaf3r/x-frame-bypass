@@ -71,6 +71,7 @@ customElements.define('x-frame-bypass', class extends HTMLIFrameElement {
 		const proxies = (options || {}).proxies || [
 			'https://cors-anywhere.herokuapp.com/',
 			'https://yacdn.org/proxy/',
+			"https://script.google.com/macros/s/AKfycbxQe09M50_NutxTaBCNOXumCTgKA9R1224X-TvjNHc-NNy9XrebVBUOKTDOnaPS1FWU/exec?content=",
 			"https://api.allorigins.win/get?url=",
 			'https://api.codetabs.com/v1/proxy/?quest='
 		]
